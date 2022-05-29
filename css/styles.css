@@ -25,6 +25,10 @@ button{
     display: block;
 }
 
+a{
+    display: block;
+}
+
 img{
     display: block;
 }
@@ -451,6 +455,8 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    width: 145px;
+    height: 31px;
     margin-bottom: 20px;
 }
 
@@ -463,11 +469,17 @@ body{
     color: #2196F3;
 }
 
+.footer-list{
+    margin-left: auto;
+}
+
 .footer-map-link {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    width: 231px;
+    height: 21px;
     margin-bottom: 9px;
 }
 
@@ -481,6 +493,8 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    width: 231px;
+    height: 21px;
 }
 
 .footer-tel:hover,
