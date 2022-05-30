@@ -50,6 +50,7 @@ body{
     background: #FFFFFF;
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: 1px solid #c5c5c5;;
 }
 
 .header .container{
@@ -69,7 +70,6 @@ body{
 .header-logo{
     margin-right: 93px;
 }
-
 
 .ingredient{
     font-family: "Raleway", sans-serif;
@@ -150,7 +150,7 @@ body{
 .hero {
     background: #2F303A;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
 }
 
 .hero-title{
@@ -188,7 +188,8 @@ body{
 /*---------------About---------------*/
 
 .about{
-    padding-bottom:94px;
+    padding-top:94px;
+    padding-bottom: 94px;
 }
 
 .about-content-benefits{
@@ -202,8 +203,6 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--second-title-color);
-    margin-top: 94px;
-    max-width: 270px;
     margin-bottom:var(--typical-margin);
 }
 
@@ -212,8 +211,6 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
-    margin: right 30px;
-    margin-bottom: 47px;
 }
 
 .about-title-services{
@@ -223,11 +220,13 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
-    margin-top: 47px;
     min-width: 376px;
-    margin-bottom: 50px;
 }
 
+.services{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .about-images-services {
     display: flex;
 }
@@ -254,23 +253,23 @@ body{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-top: 47px;
     min-width: 264px;
-    margin-bottom: 47px;
     color: var(--second-title-color);
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .team-list{
     display: flex;
     margin-left: -30px;
-    padding-top: 47px;
-    padding-bottom: 94px;
 }
 
 .team-item{
     background: #FFFFFF;
     width: 270px;
     height: 368px;
+    border: 1px solid #c5c5c5;
+    border-radius:4px;
 }
 
 .team-item{
@@ -305,19 +304,15 @@ body{
 
 /*-----------Projects--------------*/
 .projects{
-    padding-top: 47px;
+    padding-top: 94px;
     padding-bottom: 94px;
-}
-
-.nav-list{
-    display: flex;
-    align-items: center;
 }
 
 .projects-btn-list{
     display: flex;
     align-items:center;
-    margin: 0 auto;
+    justify-content:center;
+    margin-bottom: 50px;
 
 }
 
@@ -336,8 +331,6 @@ body{
     min-width: 73px;
     height: 38px;
     padding: 6px 22px;
-    margin-top: 47px;
-    margin-bottom: 50px;
     border-radius: 4px;
 }
 
@@ -351,8 +344,6 @@ body{
     min-width: 128px;
     height: 38px;
     padding: 6px 22px;
-    margin-top: 47px;
-    margin-bottom: 50px;
     border-radius: 4px;
 }
 
@@ -366,8 +357,6 @@ body{
     min-width: 145px;
     height: 38px;
     padding: 6px 22px;
-    margin-top: 47px;
-    margin-bottom: 50px;
     border-radius: 4px;
 }
 
@@ -381,8 +370,6 @@ body{
     min-width: 103px;
     height: 38px;
     padding: 6px 22px;
-    margin-top: 47px;
-    margin-bottom: 50px;
     border-radius: 4px;
 }
 
@@ -396,8 +383,6 @@ body{
     min-width: 130px;
     height: 38px;
     padding: 6px 22px;
-    margin-top: 47px;
-    margin-bottom: 50px;
     border-radius: 4px;
 }
 
