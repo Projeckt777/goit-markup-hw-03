@@ -87,6 +87,7 @@ body{
     letter-spacing: 0.02em;
     color: #212121;
     display: flex;
+    margin-left: auto;
 }
 
 .list{
@@ -117,11 +118,6 @@ body{
 
 .header-item:not(:last-child){
     margin-right: 50px;
-}
-
-.header-connect{
-    margin-left: auto;
-    display: flex;
 }
 
 .header-tel{
@@ -189,10 +185,9 @@ body{
 
 .about{
     padding-top:94px;
-    padding-bottom: 94px;
 }
 
-.about-content-benefits{
+.about-list-benefits{
     display: flex;
 }
 
@@ -221,13 +216,14 @@ body{
     letter-spacing: 0.03em;
     color: var(--second-title-color);
     min-width: 376px;
+    margin-bottom: 50px;
 }
 
 .services{
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.about-images-services {
+.about-list-services {
     display: flex;
 }
 
@@ -255,7 +251,6 @@ body{
     letter-spacing: 0.03em;
     min-width: 264px;
     color: var(--second-title-color);
-    padding-top: 94px;
     padding-bottom: 50px;
 }
 
@@ -278,8 +273,8 @@ body{
 }
 
 .team-item-typical{
-    margin-top:var(--ofen-margin) ;
-    margin-bottom: var(--ofen-margin);
+    padding-top:var(--ofen-margin) ;
+    padding-bottom: var(--ofen-margin);
 }
 
 .team-item-title{
@@ -289,9 +284,6 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-top: var(--ofen-margin);
-    margin-bottom: var(--typical-margin);
-
 }
 
 .team-item-text{
@@ -399,22 +391,30 @@ body{
     margin-bottom: var(--ofen-margin);
 }
 
+.projects-item-gallery-typical{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-left: 1px;
+    border: 1px solid #EEEEEE;
+}
+
 .projects-item-gallery-title{
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
     color: var(--second-title-color);
-    margin-top: 20px;
     margin-bottom: var(--second-margin);
-
 }
 
 .projects-gallery-text{
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
-    margin-bottom:20px;
 }
 
 /*---------------Footer---------------*/
@@ -440,8 +440,6 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    width: 145px;
-    height: 31px;
     margin-bottom: 20px;
 }
 
@@ -463,9 +461,6 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    width: 231px;
-    height: 21px;
-    margin-bottom: 9px;
 }
 
 .footer-mail-link{
